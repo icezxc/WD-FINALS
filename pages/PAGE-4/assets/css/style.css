@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&family=Poppins:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Nunito", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('../video/giphy123.webp') no-repeat center center fixed;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f1f1f;
+    padding: 30px;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .header .logo:hover {
+    color: #4CAF50;
+  }
+  
+  .header .navbar a {
+    font-size: 1.5rem;
+    color: #f5f5f5;
+    margin-left: 4rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .header .navbar a:hover {
+    color: #4CAF50;
+    transform: scale(1.1);
+  }
+  
+  .header .navbar a.active {
+    border-bottom: 2px solid #fff;
+  }
+  
+  .header #menu-icon {
+    display: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+section.references {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: 100vh;
+    width: 100vw;
+}
+
+.references h1 {
+    margin: 1rem;
+    font-size: 5rem;
+    color: white;
+    text-shadow: 4px 4px 9px rgba(0, 0, 0, 0.6);
+}
+
+.references .icon {
+    margin: 1rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px #fffcfc;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 1rem;
+}
+
+.references .icon h2 {
+    font-size: 3rem;
+    margin: 1rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.references .icon h2:hover {
+    color: #4CAF50;
+    transform: translateY(-5px); /* Subtle lift effect */
+}
+
+.references .icon i {
+    color: white;
+    font-size: 6rem;
+    padding: 1.5rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.references .icon i:hover {
+    color: #4CAF50;
+    transform: translateY(-5px); /* Subtle lift effect */
+}
