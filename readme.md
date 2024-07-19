@@ -64,6 +64,7 @@ This project showcases diverse designs of web page headers and footers using HTM
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website
+- Hover Animations
 
 ### Technology
 <!-- TODO: List of Technology Used -->
