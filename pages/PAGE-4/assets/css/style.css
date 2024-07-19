@@ -115,7 +115,7 @@ section.references {
 
 .references .icon h2:hover {
     color: #4CAF50;
-    transform: translateY(-5px); /* Subtle lift effect */
+    transform: translateY(-5px);
 }
 
 .references .icon i {
@@ -127,5 +127,5 @@ section.references {
 
 .references .icon i:hover {
     color: #4CAF50;
-    transform: translateY(-5px); /* Subtle lift effect */
+    transform: translateY(-5px);
 }
