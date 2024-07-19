@@ -59,18 +59,11 @@
 <!-- The following are just sample -->
 This project showcases diverse designs of web page headers and footers using HTML and CSS. By exploring visual effects, layouts, and container manipulations, it demonstrates the creative potential for enhancing these crucial page elements. The goal is to inspire web designers to push the boundaries of header and footer design.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website
-- Hover Effect
-- Active Effect
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -116,4 +109,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | https://github.com/ https://giphy.com/gifs/studiosoriginals-3ov9jCYBYtLNI3Qqbu https://fontawesome.com/ |
+| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com|
