@@ -17,7 +17,7 @@ html {
 }
 body {
     font-family: 'Roboto', sans-serif;
-    background: url('../img/giphy.webp') no-repeat center center fixed;
+    background: url('../video/matrix.webp') no-repeat center center fixed;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -114,7 +114,7 @@ main {
 .profile-image h1 {
     margin-top: 10px;
     font-size: 4rem;
-    color: #0073e6;
+    color: #006c04;
 }
 
 .profile-image p {
@@ -124,7 +124,7 @@ main {
 
 .resume-content h2 {
     font-size: 4rem;
-    color: #0073e6;
+    color: #006c04;
     margin-bottom: 10px;
 }
 
@@ -136,12 +136,12 @@ main {
 .resume-content ul li {
     font-size: 3rem;
     padding: 15px 0;
-    border-bottom: 1px solid #f4f4f9;
+    border-bottom: 1px solid #ffffff;
     transition: color 0.3s, transform 0.3s;
 }
 
 .resume-content ul li:hover {
-    color: #0073e6;
+    color: #006c04;
     transform: translateX(10px);
 }
 
@@ -151,7 +151,7 @@ main {
 
 .contactInfo .title {
     font-size: 5rem;
-    color: #0073e6;
+    color: #006c04;
     margin-bottom: 10px;
 }
 
